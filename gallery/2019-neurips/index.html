@@ -1,0 +1,139 @@
+---
+layout: page
+title: "Neural Information Processing Systems 2019"
+description: "- Vancouver, Canada -"
+active: gallery
+header-img: "img/gallery-bg.jpg"
+album-title: ""
+images:
+ - image_path: /gallery/archive/2019-neurips/19-12-Abel.jpeg
+   caption: David Abel
+   copyright: © RobertTLange
+ - image_path: /gallery/archive/2019-neurips/19-12-Aguera.jpeg
+   caption: Blaise Aguera
+   copyright: © RobertTLange
+ - image_path: /gallery/archive/2019-neurips/19-12-Bengio.jpeg
+   caption: Yoshua Bengio
+   copyright: © RobertTLange
+ - image_path: /gallery/archive/2019-neurips/19-12-Hofmann-a.jpeg
+   caption: Katja Hofmann (part a)
+   copyright: © RobertTLange
+ - image_path: /gallery/archive/2019-neurips/19-12-Hofmann-b.jpeg
+   caption: Katja Hofmann (part b)
+   copyright: © RobertTLange
+ - image_path: /gallery/archive/2019-neurips/19-12-Gottlieb.jpeg
+   caption: Jacqueline Gottlieb
+   copyright: © RobertTLange
+ - image_path: /gallery/archive/2019-neurips/19-12-Khan-a.jpeg
+   caption: Emtiyaz Khan (part a)
+   copyright: © RobertTLange
+ - image_path: /gallery/archive/2019-neurips/19-12-Khan-b.jpeg
+   caption: Emtiyaz Khan (part b)
+   copyright: © RobertTLange
+ - image_path: /gallery/archive/2019-neurips/19-12-Hadsell.jpeg
+   caption: Raia Hadsell
+   copyright: © RobertTLange
+ - image_path: /gallery/archive/2019-neurips/19-12-Kidd.jpeg
+   caption: Celeste Kidd
+   copyright: © RobertTLange
+ - image_path: /gallery/archive/2019-neurips/19-12-Momennejad.jpeg
+   caption: Ida Momennejad
+   copyright: © RobertTLange
+ - image_path: /gallery/archive/2019-neurips/19-12-Sutton.jpeg
+   caption: Rich Sutton
+   copyright: © RobertTLange
+ - image_path: /gallery/archive/2019-neurips/19-12-Vinyals.jpeg
+   caption: Oriol Vinyals
+   copyright: © RobertTLange
+ - image_path: /gallery/archive/2019-neurips/19-12-Wang.jpeg
+   caption: Jane Wang
+   copyright: © RobertTLange
+ - image_path: /gallery/archive/2019-neurips/19-12-Yu.jpeg
+   caption: Bin Yu
+   copyright: © RobertTLange
+ - image_path: /gallery/archive/2019-neurips/19-12-Ha.jpeg
+   caption: David Ha
+   copyright: © RobertTLange
+---
+
+<html class="no-js" lang="en">
+<head>
+	<meta content="charset=utf-8">
+</head>
+
+    <body>
+
+	<section id="content" role="main">
+		<div class="wrapper">
+	<br><br>
+			<h2>{{page.album-title}}</h2>
+
+
+			<!-- Gallery __-->
+			<div class="gallery masonry-gallery">
+
+{% for image in page.images %}
+
+				<figure class="gallery-item">
+					<header class='gallery-icon'>
+
+<a href="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}" class="popup"  title="{{ image.caption }}" data-caption="{{ image.copyright }}">
+<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+
+					</header>
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary" id="{{ image.caption }}">
+							<h3>{{image.caption}}</h3>
+							<p>{{image.copyright}}</p>
+						</div>
+					</figcaption>
+				</figure>
+
+{% endfor %}
+
+			</div>
+
+		</div><!-- END .wrapper -->
+	</section>
+
+<!-- jQuery -->
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- include image popups -->
+<script src="{{ site.baseurl }}/js/jquery.magnific-popup.js"></script>
+
+<script type="text/javascript">
+      $(document).ready(function($) {
+        $('a.popup').magnificPopup({
+         type: 'image',
+	  gallery:{
+         enabled:true,
+         navigateByImgClick: true,
+         preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+       },
+image: {
+      titleSrc: function(item) {
+              return item.el.attr('title') + '&nbsp;' + item.el.attr('data-caption');
+            }
+        }
+          // other options
+      });
+});
+    </script>
+
+<script src="{{ site.baseurl }}/js/retina.min.js"></script>
+<!-- include Masonry -->
+<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script>
+<!-- include mousewheel plugins -->
+<script src="{{ site.baseurl }}/js/jquery.mousewheel.min.js"></script>
+<!-- include carousel plugins -->
+<script src="{{ site.baseurl}}/js/jquery.tinycarousel.min.js"></script>
+<!-- include svg line drawing plugin -->
+<script src="{{ site.baseurl }}/js/jquery.lazylinepainter.min.js"></script>
+<!-- include custom script -->
+<script src="{{ site.baseurl }}/js/scripts.js"></script>
+<!-- Modernizr -->
+ <script src="{{ site.baseurl }}/js/modernizr.js"></script>
+
+
+</body></html>

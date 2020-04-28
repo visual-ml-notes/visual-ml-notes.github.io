@@ -1,0 +1,89 @@
+---
+layout: page
+title: "Art is meant to disturb, science reassures."
+description: "- Georges Braque -"
+active: gallery
+header-img: "img/gallery-bg.jpg"
+images:
+ - image_path: /gallery/albums/2020_iclr_cover.png
+   gallery-folder: /gallery/2020-iclr/
+   gallery-name: ICLR 2020
+   gallery-date: April 2020
+ - image_path: /gallery/albums/2020_collected_cover.png
+   gallery-folder: /gallery/2020-collected/
+   gallery-name: Collected Individual Talks
+   gallery-date: 2020
+ - image_path: /gallery/albums/2020_papers_cover.png
+   gallery-folder: /gallery/2020-papers/
+   gallery-name: Collected Illustrated Papers
+   gallery-date: 2020
+ - image_path: /gallery/albums/2019_neurips_cover.png
+   gallery-folder: /gallery/2019-neurips/
+   gallery-name: NeurIPS 2019
+   gallery-date: December 2019
+ - image_path: /gallery/albums/2019_bernstein_cover.png
+   gallery-folder: /gallery/2019-bernstein/
+   gallery-name: Bernstein Conference 2019
+   gallery-date: September 2019
+---
+
+<html class="no-js" lang="en">
+<head>
+	<meta content="charset=utf-8">
+    <link rel="stylesheet" href="{{ "/css/selena.css" | prepend: site.baseurl }}">
+</head>
+
+
+    <body class="gallery">
+
+	<section id="content" role="main">
+		<div class="wrapper">
+
+			<!-- Gallery __-->
+			<div class="gallery masonry-gallery">
+
+{% for image in page.images %}
+
+	               <figure class="gallery-item">
+                         <figure class="effect-selena">
+					<header class='gallery-icon'>
+
+<a href="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}">
+<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+
+					</header>
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary">
+							<h3>{{image.gallery-name}}</h3>
+							<p>{{image.gallery-date}}</p>
+						</div>
+					</figcaption>
+                       </figure>
+				</figure>
+
+{% endfor %}
+
+			</div>
+
+		</div><!-- END .wrapper -->
+	</section>
+
+
+<!-- jQuery -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/js/retina.min.js"></script>
+<!-- include Masonry -->
+<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script>
+<!-- include mousewheel plugins -->
+<script src="{{ site.baseurl }}/js/jquery.mousewheel.min.js"></script>
+<!-- include carousel plugins -->
+<script src="{{ site.baseurl}}/js/jquery.tinycarousel.min.js"></script>
+<!-- include svg line drawing plugin -->
+<script src="{{ site.baseurl }}/js/jquery.lazylinepainter.min.js"></script>
+<!-- include custom script -->
+<script src="{{ site.baseurl }}/js/scripts.js"></script>
+<!-- Modernizr -->
+ <script src="{{ site.baseurl }}/js/modernizr.js"></script>
+
+</body></html>
