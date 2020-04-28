@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visual Machine Learning Notes</title>
+    <description>A Collection of Machine Learning Notes</description>
+    <link>https://visual-ml-notes.github.io/</link>
+    <atom:link href="https://visual-ml-notes.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 28 Apr 2020 10:57:30 +0200</pubDate>
+    <lastBuildDate>Tue, 28 Apr 2020 10:57:30 +0200</lastBuildDate>
+    <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>BLOG IMAGE PERFORMANCE IS NECESSARY</title>
+        <description>&lt;p&gt;I would like to thank &lt;a href=&quot;http://designyourownblog.com/about-dyob/&quot;&gt;Marianne&lt;/a&gt;, owner of &lt;a href=&quot;http://designyourownblog.com/&quot;&gt;DESIGN YOUR OWN BLOG&lt;/a&gt; who gave me permission to link to her post where she is talking about blog image performance.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Is blog image performance necessary?&lt;/p&gt;
+
+  &lt;p&gt;Consider this:&lt;/p&gt;
+
+  &lt;p&gt;Your users don’t want to wait more than 3 seconds for your page to load.&lt;/p&gt;
+
+  &lt;p&gt;Google pays attention to your website speed and ranks it accordingly.&lt;/p&gt;
+
+  &lt;p&gt;So I’d say yes, it’s very necessary.&lt;/p&gt;
+
+  &lt;p&gt;– Marianne&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you care about your readers &lt;a href=&quot;http://designyourownblog.com/blog-image-performance/&quot;&gt;this&lt;/a&gt; post is a &lt;b&gt;MUST READ&lt;/b&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;There are 3 steps (4 for JPEGs) we should take to optimize our images:&lt;/p&gt;
+
+  &lt;p&gt;Always resize the image to the largest size it will appear.&lt;/p&gt;
+
+  &lt;p&gt;Further reduce JPEG file size with these tricks.&lt;/p&gt;
+
+  &lt;p&gt;Reduce quality on save.&lt;/p&gt;
+
+  &lt;p&gt;Run it through a lossless image compression tool.&lt;/p&gt;
+
+  &lt;p&gt;– Marianne&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This Jekyll template was crafted in order to be used by photobloggers. If the photos you upload are not optimized, the page loading time will increase significantly! &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;DO NOT upload an image at its full size, such as 2500 x 3500, and then resize it in the settings after you’ve uploaded it to your blog!&lt;/p&gt;
+
+  &lt;p&gt;– Marianne&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt; So, dig in her informative post and learn how you can have a fast loading photography website!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://designyourownblog.com/blog-image-performance/&quot;&gt;&lt;b&gt;“THE BIGGEST MISTAKE YOU’RE PROBABLY MAKING WITH YOUR BLOG IMAGES + CHEAT SHEET”&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Thank you Marianne! :)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://designyourownblog.com/wp-content/uploads/2015/10/biggest-blog-mistake-image-performance-2.jpg&quot;&gt;Featured Image Source&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Feb 2016 00:00:00 +0100</pubDate>
+        <link>https://visual-ml-notes.github.io/journal/images-size-for-better-performance/</link>
+        <guid isPermaLink="true">https://visual-ml-notes.github.io/journal/images-size-for-better-performance/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
