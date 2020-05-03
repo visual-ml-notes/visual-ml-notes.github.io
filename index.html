@@ -121,6 +121,12 @@ color:#dddddd; target="_blank" title="Github">
                      </span>
                    {% endif %}
 <li>
+    {% if site.email %}
+    <a href="mailto:{{ site.email }}" style="
+color:#dddddd; target="_blank" title="Email">
+              <i class="fa fa-envelope-o"></i></span>
+          </a> </li>
+    {% endif %}
 
 		</ul>
 	</div>
